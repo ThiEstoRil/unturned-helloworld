@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace thiestoril.HelloWorld
 {
-    public class HelloWorld
+    public class Config
     {
+        public string WelcomeMsg { get; set; } = "Welcome to potatoes";
     }
 }
