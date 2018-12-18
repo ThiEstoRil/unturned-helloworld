@@ -14,7 +14,7 @@ namespace thiestoril.HelloWorld
 {
     public class Main : Plugin <Config>
     {
-        public Main(IDependencyContainer container) : base("Welcome Messager", container);
+        public Main (IDependencyContainer container) : base("Welcome Messager", container) { }
 
     }
 }
